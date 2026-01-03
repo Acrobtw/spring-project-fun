@@ -1,4 +1,4 @@
-package com.example.store;
+package com.example.store.service;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Value;
@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
 
 
-@Service("stripe")
+// @Service("stripe")
 @Primary
 
 public class StripePaymentService implements PaymentService {
@@ -27,7 +27,7 @@ public class StripePaymentService implements PaymentService {
         System.out.println("STRIPE");
         System.out.println("Api url " + apiUrl);
         System.out.println("timeout: " + timeout);
-        System.out.println("enabled" + enabled);
+        System.out.println("enabled " + enabled);
         System.out.println("List of supported Currencies: " + supportedCurrencies);
         System.out.println("Amount: " + amount + " paid.");
     }

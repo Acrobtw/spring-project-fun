@@ -1,4 +1,4 @@
-package com.example.store;
+package com.example.store.notification;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
@@ -13,7 +13,7 @@ public class NotificationManager {
         this.notificationService = notificationService;
     }
 
-    public void sendMessage(String message) {
-        notificationService.sendMessage(message);
+    public void sendMessage(String message, String recipientEmail) {
+        notificationService.sendMessage(message, recipientEmail);
     }
 }
