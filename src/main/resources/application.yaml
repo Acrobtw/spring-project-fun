@@ -1,14 +1,22 @@
 spring:
   application:
-   name: store
+    name: store
+  
+  datasource:
+    url: jdbc:postgresql://localhost:5432/store
+    username: postgres  
+    password: root
+    driver-class-name: org.postgresql.Driver
 
 stripe:
   apiUrl: https://api.stripe.com
   timeout: 1000
   enabled: true
-  supported-currentices: USD,EUR,UAH
+  
+  supported-currencies: USD,EUR,UAH 
 
 payment-gateway: stripe
+
 mail:
-  host: https://smtp.gmail.com
-  port: 5761
+  host: smtp.gmail.com
+  port: 587

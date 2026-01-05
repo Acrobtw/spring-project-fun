@@ -15,11 +15,6 @@
     "description": "A description for 'stripe.enabled'"
   },
   {
-    "name": "stripe.supported-currentices",
-    "type": "java.lang.String",
-    "description": "A description for 'stripe.supported-currentices'"
-  },
-  {
     "name": "payment-gateway",
     "type": "java.lang.String",
     "description": "A description for 'payment-gateway'"
@@ -33,5 +28,30 @@
     "name": "mail.port",
     "type": "java.lang.String",
     "description": "A description for 'mail.port'"
+  },
+  {
+    "name": "spring.datasourсe.url",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasourсe.url'"
+  },
+  {
+    "name": "spring.datasourсe.username",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasourсe.username'"
+  },
+  {
+    "name": "spring.datasourсe.password",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasourсe.password'"
+  },
+  {
+    "name": "spring.datasourсe.driver-class-name",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasourсe.driver-class-name'"
+  },
+  {
+    "name": "stripe.supported-currencies",
+    "type": "java.lang.String",
+    "description": "A description for 'stripe.supported-currencies'"
   }
 ]}
